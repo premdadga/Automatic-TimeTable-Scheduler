@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Scheduler</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #1e3c72;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        .nav-buttons {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .nav-btn {
+            padding: 10px 25px;
+            margin: 0 10px;
+            background: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .nav-btn:hover {
+            background: #5a6268;
+        }
+
+        .instructions {
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-left: 4px solid #1e3c72;
+        }
+
+        .instructions h3 {
+            color: #1e3c72;
+            margin-bottom: 10px;
+        }
+
+        .instructions ul {
+            margin-left: 20px;
+            color: #555;
+        }
+
+        .instructions li {
+            margin: 5px 0;
+        }
+
+        .upload-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .upload-card {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            border: 2px dashed #1e3c72;
+            transition: all 0.3s;
+        }
+
+        .upload-card:hover {
+            border-color: #2a5298;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .upload-card h3 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .file-input-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .file-input-wrapper input[type=file] {
+            position: absolute;
+            left: -9999px;
+        }
+
+        .file-input-label {
+            display: block;
+            padding: 12px 20px;
+            background: #1e3c72;
+            color: white;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .file-input-label:hover {
+            background: #2a5298;
+        }
+
+        .upload-btn {
+            width: 100%;
+            padding: 12px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            margin-top: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        .upload-btn:hover {
+            background: #218838;
+        }
+
+        .generate-section {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .generate-btn {
+            padding: 20px 60px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2em;
+            cursor: pointer;
+            box-shadow: 0 10px 30px rgba(30, 60, 114, 0.4);
+            transition: all 0.3s;
+        }
+
+        .generate-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(30, 60, 114, 0.6);
+        }
+
+        .view-btn {
+            padding: 15px 40px;
+            background: #17a2b8;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            cursor: pointer;
+            margin-left: 20px;
+            transition: all 0.3s;
+        }
+
+        .view-btn:hover {
+            background: #138496;
+        }
+
+        .message {
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+            display: none;
+        }
+
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .file-name {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📋 Exam Scheduler</h1>
+        
+        <div class="nav-buttons">
+            <a href="/" class="nav-btn">📚 Class Timetable</a>
+            <a href="/exam" class="nav-btn" style="background: #1e3c72;">📋 Exam Scheduler</a>
+        </div>
+
+        <div class="instructions">
+            <h3>📋 CSV Format Instructions:</h3>
+            <ul>
+                <li><strong>Exam Courses CSV:</strong> code, name, credits, branch, students, type</li>
+                <li><strong>Invigilators CSV:</strong> name, department, availability</li>
+                <li><strong>Exam Rooms CSV:</strong> number, capacity, type</li>
+            </ul>
+            <p style="margin-top: 10px; color: #d32f2f;"><strong>Important Rules:</strong></p>
+            <ul style="margin-top: 5px;">
+                <li>Branch: CSE, DSAI, ECE (only branch-wise, no year)</li>
+                <li>Type: Theory, Lab (Labs will be excluded from exam schedule)</li>
+                <li><strong>1 exam per day per branch</strong></li>
+                <li>1 invigilator per room</li>
+                <li>40 students per room</li>
+                <li>Same day/room can be used by different branches</li>
+            </ul>
+        </div>
+
+        <div id="message" class="message"></div>
+
+        <div class="upload-section">
+            <div class="upload-card">
+                <h3>📚 Upload Exam Courses</h3>
+                <form id="examCourseForm">
+                    <div class="file-input-wrapper">
+                        <label class="file-input-label" for="examCourseFile">
+                            Choose CSV File
+                        </label>
+                        <input type="file" id="examCourseFile" name="file" accept=".csv" required>
+                    </div>
+                    <div class="file-name" id="examCourseName"></div>
+                    <button type="submit" class="upload-btn">Upload Courses</button>
+                </form>
+            </div>
+
+            <div class="upload-card">
+                <h3>👨‍🏫 Upload Invigilators</h3>
+                <form id="invigilatorForm">
+                    <div class="file-input-wrapper">
+                        <label class="file-input-label" for="invigilatorFile">
+                            Choose CSV File
+                        </label>
+                        <input type="file" id="invigilatorFile" name="file" accept=".csv" required>
+                    </div>
+                    <div class="file-name" id="invigilatorName"></div>
+                    <button type="submit" class="upload-btn">Upload Invigilators</button>
+                </form>
+            </div>
+
+            <div class="upload-card">
+                <h3>🏫 Upload Exam Rooms</h3>
+                <form id="examRoomForm">
+                    <div class="file-input-wrapper">
+                        <label class="file-input-label" for="examRoomFile">
+                            Choose CSV File
+                        </label>
+                        <input type="file" id="examRoomFile" name="file" accept=".csv" required>
+                    </div>
+                    <div class="file-name" id="examRoomName"></div>
+                    <button type="submit" class="upload-btn">Upload Rooms</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="generate-section">
+            <button class="generate-btn" onclick="generateExamSchedule()">
+                ⚡ Generate Exam Schedule
+            </button>
+            <button class="view-btn" onclick="window.location.href='/view-exam'">
+                👁️ View Exam Schedule
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function showMessage(msg, type) {
+            const msgDiv = document.getElementById('message');
+            msgDiv.textContent = msg;
+            msgDiv.className = `message ${type}`;
+            msgDiv.style.display = 'block';
+            setTimeout(() => msgDiv.style.display = 'none', 5000);
+        }
+
+        document.getElementById('examCourseFile').addEventListener('change', function(e) {
+            document.getElementById('examCourseName').textContent = e.target.files[0]?.name || '';
+        });
+
+        document.getElementById('invigilatorFile').addEventListener('change', function(e) {
+            document.getElementById('invigilatorName').textContent = e.target.files[0]?.name || '';
+        });
+
+        document.getElementById('examRoomFile').addEventListener('change', function(e) {
+            document.getElementById('examRoomName').textContent = e.target.files[0]?.name || '';
+        });
+
+        document.getElementById('examCourseForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const response = await fetch('/upload/exam-courses', {
+                method: 'POST',
+                body: formData
+            });
+            const data = await response.json();
+            showMessage(data.message || data.error, data.error ? 'error' : 'success');
+            if (!data.error) e.target.reset();
+        });
+
+        document.getElementById('invigilatorForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const response = await fetch('/upload/invigilators', {
+                method: 'POST',
+                body: formData
+            });
+            const data = await response.json();
+            showMessage(data.message || data.error, data.error ? 'error' : 'success');
+            if (!data.error) e.target.reset();
+        });
+
+        document.getElementById('examRoomForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const response = await fetch('/upload/exam-rooms', {
+                method: 'POST',
+                body: formData
+            });
+            const data = await response.json();
+            showMessage(data.message || data.error, data.error ? 'error' : 'success');
+            if (!data.error) e.target.reset();
+        });
+
+        async function generateExamSchedule() {
+            const response = await fetch('/generate-exam', { method: 'POST' });
+            const data = await response.json();
+            showMessage(data.message || data.error, data.error ? 'error' : 'success');
+            if (!data.error) {
+                setTimeout(() => window.location.href = '/view-exam', 2000);
+            }
+        }
+    </script>
+</body>
+</html>

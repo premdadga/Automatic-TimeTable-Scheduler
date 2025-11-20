@@ -1,0 +1,41 @@
+code,name,credits,branch,students
+CS261,Operating System,2,CSE,84
+CS262,Software Design Tools and Techniques,3,CSE,171
+CS263,Design and Analysis of Algorithms,4,CSE,168
+CS264,Computer Networks,4,CSE,167
+CS303,Computer Networks,5,CSE,137
+CS304,Artificial Intelligence,4,CSE,223
+CS307,Machine Learning,4,CSE,228
+CS308,Compiler Design,4,CSE,30
+CS309,Statistics for Computer Science,4,CSE,137
+CS352,Cryptography & Information Security,4,CSE,38
+CS366,Advanced Algorithm Design,4,CSE,167
+CS457,DevOps and its Applications,4,CSE,77
+CS463,Parallel Computing,4,CSE,24
+CS468,Information Retrieval,4,CSE,48
+CS470,AI for Cybersecurity,4,CSE,47
+CS473,Cloud SRE and Security,4,CSE,17
+DS102,Finance and Accounting,4,DSAI,150
+DS272,Foundations of Machine Learning and Generative AI,4,DSAI,115
+DS301,Graphs and Social Networks,4,DSAI,17
+DS302,Computer Communication Networks,5,DSAI,74
+DS303,Algorithms and Artificial Intelligence,4,DSAI,74
+DS359,Full Stack Development,4,DSAI,127
+DS401,Health Care Data Analytics,4,DSAI,74
+DS454,Software Testing,2,DSAI,65
+DS456,Cybersecurity Techniques,4,DSAI,139
+DS458,Agentic AI,4,DSAI,73
+EC253,Introduction to Embedded Signal Intelligence,2,ECE,72
+EC261,Signals and Systems,3,ECE,65
+EC263,Analog Electronics Circuits,2,ECE,67
+EC271,Digital System Design and Verification,1,ECE,28
+EC301,Introduction to VLSI Design,4,ECE,55
+EC306,Digital Signal Processing,4,ECE,55
+EC355,Internet of Things,4,ECE,28
+EC365,AI for Biomedical Signal Interpretation,4,ECE,26
+EC456,Reinforcement Learning,4,ECE,55
+EC462,Generative AI,4,ECE,125
+EC463,Energy Efficient Neural Networks,4,ECE,9
+EC465,Ethics and values + Environmental studies,3,All,All
+MA261,Differential Equations,1,All,All
+MA262,Multiverse calculus,1,All,All

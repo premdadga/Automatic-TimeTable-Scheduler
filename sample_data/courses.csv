@@ -1,0 +1,14 @@
+code,name,faculty,duration,type
+MA201,Differential Equations,Dr. Anand Barangi,1,Lecture
+MA202,Multiverse calculus,Dr. Somen Bhattacharjee,1,Lecture
+CS201,Operating system,Dr. Suvadip Hazra,1,Lecture
+CS202,Software design tools and techniques,Dr. Viveraj,1,Lecture
+CS203,Design and analysis of algorithms,Dr. Pramod Y,1,Lecture
+CS204,Computer networks,Dr. Prabhu Prasad B M,1,Lecture
+HS201,Ethics and values + Environmental studies,Various,1,Lecture
+CS201L,Operating system,Dr. Suvadip Hazra,2,Lab
+CS202L,Software design tools and techniques,Dr. Viveraj,2,Lab
+CS203L,Design and analysis of algorithms,Dr. Pramod Y,2,Lab
+CS204T,Computer networks,Dr. Prabhu Prasad B M,1,Tutorial
+HS202T,Ethics and values + Environmental studies,Various,1,Tutorial
+MA202T,Multiverse calculus,Dr. Somen Bhattacharjee,1,Tutorial
