@@ -1,0 +1,209 @@
+code,name,faculty,duration,type,branch,section,year,credits,semesterHalf,basket,isElective,sharedWith
+MA161,Statistics,Dr. Ramesh Athe,1,Lecture,CSE,A,1,2,1,0,FALSE,CSE-B
+DS161,Introduction to DS and AI,Dr. Abdul Wahid,1,Lecture,CSE,A,1,2,1,0,FALSE,CSE-B
+MA162,Probability,Dr. Chinmayananda,1,Lecture,CSE,A,1,2,2,0,FALSE,
+EC161,Digital Design,Dr. Prakash Pawar,1,Lecture,CSE,A,1,2,2,0,FALSE,
+CS161,Problem Solving through Programming,Dr. Sunil Kumar PV,1,Lecture,CSE,A,1,4,0,0,FALSE,
+HS161,English Language and Communication,Dr. Rajesh N S,1,Lecture,CSE,A,1,3,0,0,FALSE,
+MA161,Statistics,Dr. Ramesh Athe,1,Lecture,CSE,B,1,2,1,0,FALSE,CSE-A
+DS161,Introduction to DS and AI,Dr. Abdul Wahid,1,Lecture,CSE,B,1,2,1,0,FALSE,CSE-A
+MA162,Probability,Dr. Chinmayananda,1,Lecture,CSE,B,1,2,2,0,FALSE,
+EC161,Digital Design,Dr. Prakash Pawar,1,Lecture,CSE,B,1,2,2,0,FALSE,
+EC161,Digital Design,Dr. Prakash Pawar,1,Lab,CSE,B,1,2,2,0,FALSE,
+EC161,Digital Design,Dr. Prakash Pawar,1,Lab,CSE,A,1,2,2,0,FALSE,
+CS161,Problem Solving through Programming,Dr. Sunil Kumar PV,1,Lecture,CSE,B,1,4,0,0,FALSE,
+CS161,Problem Solving through Programming,Dr. Sunil Kumar PV,1,Lab,CSE,B,1,4,0,0,FALSE,
+CS161,Problem Solving through Programming,Dr. Sunil Kumar PV,1,Lab,CSE,A,1,4,0,0,FALSE,
+HS161,English Language and Communication,Dr. Rajesh N S,1,Lecture,CSE,B,1,3,0,0,FALSE,
+PH151,Introduction to Quantum Physics,Prof. Ravishankar,1,Lecture,CSE,A,1,2,1,1,TRUE,"ECE,DSAI"
+DS151,Linux for Engineers,Dr. Vivekraj V K,1,Lecture,CSE,A,1,2,1,1,TRUE,"ECE,DSAI"
+NEW,Fundamentals of Sensing and Control,Mr. Mallikarjun Kande,1,Lecture,CSE,A,1,2,1,1,TRUE,"ECE,DSAI"
+NEW,Leveraging IT for Social Good & CSR,Dr. Rajesh N S,1,Lecture,CSE,A,1,2,1,1,TRUE,"ECE,DSAI"
+NEW,Basics of Design,Dr. Sandesh P,1,Lecture,CSE,A,1,2,1,1,TRUE,"ECE,DSAI"
+HS156,Holistic Personality Development,Dr. Rajesh N S,1,Lecture,CSE,A,1,2,1,1,TRUE,"ECE,DSAI"
+CS151,Introduction to Cybersecurity,Dr. Girish Revadigar,1,Lecture,CSE,A,1,2,1,1,TRUE,"ECE,DSAI"
+PH151,Introduction to Quantum Physics,Prof. Ravishankar,1,Lecture,CSE,B,1,2,1,1,TRUE,"ECE,DSAI"
+DS151,Linux for Engineers,Dr. Vivekraj V K,1,Lecture,CSE,B,1,2,1,1,TRUE,"ECE,DSAI"
+NEW,Fundamentals of Sensing and Control,Mr. Mallikarjun Kande,1,Lecture,CSE,B,1,2,1,1,TRUE,"ECE,DSAI"
+NEW,Leveraging IT for Social Good & CSR,Dr. Rajesh N S,1,Lecture,CSE,B,1,2,1,1,TRUE,"ECE,DSAI"
+NEW,Basics of Design,Dr. Sandesh P,1,Lecture,CSE,B,1,2,1,1,TRUE,"ECE,DSAI"
+HS156,Holistic Personality Development,Dr. Rajesh N S,1,Lecture,CSE,B,1,2,1,1,TRUE,"ECE,DSAI"
+CS151,Introduction to Cybersecurity,Dr. Girish Revadigar,1,Lecture,CSE,B,1,2,1,1,TRUE,"ECE,DSAI"
+MA161,Statistics,Dr. Ramesh Athe,1,Lecture,DSAI,ALL,1,2,2,0,FALSE,ECE
+DS161,Introduction to DS and AI,Dr. Abdul Wahid,1,Lecture,DSAI,ALL,1,2,2,0,FALSE,ECE
+MA162,Probability,Dr. Chinmayananda,1,Lecture,DSAI,ALL,1,2,1,0,FALSE,ECE
+EC161,Digital Design,Dr. Prakash Pawar,1,Lecture,DSAI,ALL,1,2,1,0,FALSE,ECE
+CS161,Problem Solving through Programming,Dr. Sunil Kumar PV,1,Lecture,DSAI,ALL,1,4,0,0,FALSE,
+HS161,English Language and Communication,Dr. Rajesh N S,1,Lecture,DSAI,ALL,1,3,0,0,FALSE,ECE
+PH151,Introduction to Quantum Physics,Prof. Ravishankar,1,Lecture,DSAI,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+DS151,Linux for Engineers,Dr. Vivekraj V K,1,Lecture,DSAI,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+NEW,Fundamentals of Sensing and Control,Mr. Mallikarjun Kande,1,Lecture,DSAI,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+NEW,Leveraging IT for Social Good & CSR,Dr. Rajesh N S,1,Lecture,DSAI,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+NEW,Basics of Design,Dr. Sandesh P,1,Lecture,DSAI,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+HS156,Holistic Personality Development,Dr. Rajesh N S,1,Lecture,DSAI,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+CS151,Introduction to Cybersecurity,Dr. Girish Revadigar,1,Lecture,DSAI,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+MA161,Statistics,Dr. Ramesh Athe,1,Lecture,ECE,ALL,1,2,2,0,FALSE,DSAI
+DS161,Introduction to DS and AI,Dr. Abdul Wahid,1,Lecture,ECE,ALL,1,2,2,0,FALSE,DSAI
+MA162,Probability,Dr. Chinmayananda,1,Lecture,ECE,ALL,1,2,1,0,FALSE,DSAI
+EC161,Digital Design,Dr. Prakash Pawar,1,Lecture,ECE,ALL,1,2,1,0,FALSE,DSAI
+CS161,Problem Solving through Programming,Dr. Sunil Kumar PV,1,Lecture,ECE,ALL,1,4,0,0,FALSE,
+HS161,English Language and Communication,Dr. Rajesh N S,1,Lecture,ECE,ALL,1,3,0,0,FALSE,DSAI
+PH151,Introduction to Quantum Physics,Prof. Ravishankar,1,Lecture,ECE,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+DS151,Linux for Engineers,Dr. Vivekraj V K,1,Lecture,ECE,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+NEW,Fundamentals of Sensing and Control,Mr. Mallikarjun Kande,1,Lecture,ECE,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+NEW,Leveraging IT for Social Good & CSR,Dr. Rajesh N S,1,Lecture,ECE,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+NEW,Basics of Design,Dr. Sandesh P,1,Lecture,ECE,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+HS156,Holistic Personality Development,Dr. Rajesh N S,1,Lecture,ECE,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+CS151,Introduction to Cybersecurity,Dr. Girish Revadigar,1,Lecture,ECE,ALL,1,2,1,1,TRUE,"ECE,DSAI"
+CS261,Operating System,Dr. Suvadip Hazra,1,Lecture,CSE,A,2,3,1,0,FALSE,
+CS261,Operating System,Dr. Suvadip Hazra,1,Lecture,CSE,B,2,3,2,0,FALSE,
+CS262,Software Design Tools,Dr. Viveraj,1,Lecture,CSE,A,2,3,0,0,FALSE,
+CS262,Software Design Tools,Dr. Viveraj,1,Lecture,CSE,B,2,3,0,0,FALSE,
+CS263,Design and Analysis of Algorithms,Dr. Pramod Y,1,Lecture,CSE,A,2,4,0,0,FALSE,
+CS263,Design and Analysis of Algorithms,Dr. Pramod Y,1,Lecture,CSE,B,2,4,0,0,FALSE,
+CS264,Computer Networks,Dr. Prabhu Prasad B M,1,Lecture,CSE,A,2,4,0,0,FALSE,
+CS264,Computer Networks,Dr. Prabhu Prasad B M,1,Lecture,CSE,B,2,4,0,0,FALSE,
+CS261L,Operating System Lab,Dr. Suvadip Hazra,2,Lab,CSE,A,2,1,2,0,FALSE,
+CS261L,Operating System Lab,Dr. Suvadip Hazra,2,Lab,CSE,B,2,1,2,0,FALSE,
+CS262L,Software Design Lab,Dr. Viveraj,2,Lab,CSE,A,2,1,0,0,FALSE,
+CS262L,Software Design Lab,Dr. Viveraj,2,Lab,CSE,B,2,1,0,0,FALSE,
+MA201,Differential Equations,Dr. Anand Barangi,1,Lecture,CSE,A,2,4,2,0,FALSE,CSE-B
+MA201,Differential Equations,Dr. Anand Barangi,1,Lecture,CSE,B,2,4,2,0,FALSE,CSE-A
+NEW,Electronics System Design-I,Dr. Pankaj Kumar,2,Lecture,CSE,A,2,2,1,1,TRUE,"ECE,DSAI"
+CS162,Data Science with Python,Dr. Abdul Wahid,2,Lecture,CSE,A,2,2,1,1,TRUE,"ECE,DSAI"
+NEW,2D Computer Graphics,Dr. Vivekraj V K,2,Lecture,CSE,A,2,2,1,1,TRUE,"ECE,DSAI"
+NEW,Introduction to RFIC Design,Dr. Sibasankar Padhy,2,Lecture,CSE,A,2,2,1,1,TRUE,"ECE,DSAI"
+NEW,Electronic System Engineering,Mr. Mallikarjun Kande,2,Lecture,CSE,A,2,2,2,2,TRUE,"ECE,DSAI"
+New,Introduction to Embedded Signal Intelligence,Dr. Sibasankar Padhy,2,Lecture,CSE,A,2,2,1,1,TRUE,"ECE,DSAI"
+NEW,Electronics System Design-I,Dr. Pankaj Kumar,2,Lecture,CSE,B,2,2,1,1,TRUE,"ECE,DSAI"
+CS162,Data Science with Python,Dr. Abdul Wahid,2,Lecture,CSE,B,2,2,1,1,TRUE,"ECE,DSAI"
+NEW,2D Computer Graphics,Dr. Vivekraj V K,2,Lecture,CSE,B,2,2,1,1,TRUE,"ECE,DSAI"
+NEW,Introduction to RFIC Design,Dr. Sibasankar Padhy,2,Lecture,CSE,B,2,2,1,1,TRUE,"ECE,DSAI"
+NEW,Electronic System Engineering,Mr. Mallikarjun Kande,2,Lecture,CSE,B,2,2,2,2,TRUE,"ECE,DSAI"
+New,Introduction to Embedded Signal Intelligence,Dr. Sibasankar Padhy,2,Lecture,CSE,B,2,2,1,1,TRUE,"ECE,DSAI"
+MA262,Multivariate Calculus,Dr. Somen Bhattacharjee,1,Lecture,DSAI,ALL,2,3,1,0,FALSE,ECE
+MA261,Differential Equations,Dr. Anand Barangi,1,Lecture,DSAI,ALL,2,4,2,0,FALSE,ECE
+DA261,Statistical Programming,Dr. Ramesh Athe,1,Lecture,DSAI,ALL,2,4,1,0,FALSE,
+DA262,Data Handling and Visualization,Dr. Siddharth R,1,Lecture,DSAI,ALL,2,3,2,0,FALSE,
+CS304,Artificial Intelligence,Dr. Animesh Chaturvedi,1,Lecture,DSAI,ALL,2,3,1,0,FALSE,
+CS307,Machine Learning,Dr. Utkarsh Khaire,1,Lecture,DSAI,ALL,2,4,2,0,FALSE,ECE
+NEW,Electronics System Design-I,Dr. Pankaj Kumar,2,Lecture,DSAI,ALL,2,2,1,1,TRUE,"ECE,CSE"
+CS162,Data Science with Python,Dr. Abdul Wahid,2,Lecture,DSAI,ALL,2,2,1,1,TRUE,"ECE,CSE"
+NEW,2D Computer Graphics,Dr. Vivekraj V K,2,Lecture,DSAI,ALL,2,2,1,1,TRUE,"ECE,CSE"
+NEW,Introduction to RFIC Design,Dr. Sibasankar Padhy,2,Lecture,DSAI,ALL,2,2,1,1,TRUE,"ECE,CSE"
+NEW,Electronic System Engineering,Mr. Mallikarjun Kande,2,Lecture,DSAI,ALL,2,2,2,2,TRUE,"ECE,CSE"
+New,Introduction to Embedded Signal Intelligence,Dr. Sibasankar Padhy,2,Lecture,DSAI,ALL,2,2,1,1,TRUE,"ECE,CSE"
+MA261,Differential Equations,Dr. Anand Barangi,1,Lecture,ECE,ALL,2,3,2,0,FALSE,DSAI
+MA262,Multivariate Calculus,Dr. Somen Bhattacharjee,1,Lecture,ECE,ALL,2,3,1,0,FALSE,DSAI
+MA263,Random Process,Dr. Chinmayananda,1,Lecture,ECE,ALL,2,4,1,0,FALSE,
+EC261,Signals & Systems,Dr. Somen Bhattacharjee,1,Lecture,ECE,ALL,2,4,2,0,FALSE,
+EC262,Semiconductor Devices,Dr. Pankaj Kumar,1,Lecture,ECE,ALL,2,3,1,0,FALSE,
+EC465,Analog Electronic Circuits,Dr. Rajesh Kumar,2,Lab,ECE,ALL,2,1,2,0,FALSE,DSAI
+CS307,Machine Learning,Dr. Deepak KT,2,Lab,ECE,ALL,2,1,2,0,FALSE,
+NEW,Electronics System Design-I,Dr. Pankaj Kumar,2,Lecture,ECE,ALL,2,2,1,1,TRUE,"DSAI,CSE"
+CS162,Data Science with Python,Dr. Abdul Wahid,2,Lecture,ECE,ALL,2,2,1,1,TRUE,"DSAI,CSE"
+NEW,2D Computer Graphics,Dr. Vivekraj V K,2,Lecture,ECE,ALL,2,2,1,1,TRUE,"DSAI,CSE"
+NEW,Introduction to RFIC Design,Dr. Sibasankar Padhy,2,Lecture,ECE,ALL,2,2,1,1,TRUE,"DSAI,CSE"
+NEW,Electronic System Engineering,Mr. Mallikarjun Kande,2,Lecture,ECE,ALL,2,2,2,2,TRUE,"DSAI,CSE"
+New,Introduction to Embedded Signal Intelligence,Dr. Sibasankar Padhy,2,Lecture,ECE,ALL,2,2,1,1,TRUE,"DSAI,CSE"
+CS309,Statistics for Computer Science,Dr. Sunil CK,1,Lecture,CSE,A,3,4,0,0,FALSE,"ECE,DSAI"
+CS303,Computer Networks,Dr. Animesh Roy,1,Lecture,CSE,A,3,5,0,0,FALSE,"ECE,DSAI"
+CS304,Artificial Intelligence,Dr. Krishnendu,1,Lecture,CSE,A,3,4,0,0,FALSE,"ECE,DSAI"
+HS101,Environmental Studies,Dr. Aswath Babu H,1,Lecture,CSE,A,3,2,0,0,FALSE,"ECE,DSAI"
+CS463,Parallel Computing,Dr. Pramod Yelmewad,1,Lecture,CSE,A,3,4,0,1,TRUE,"ECE,DSAI"
+CS308,Compiler Design,Dr. Pavan Kumar C,1,Lecture,CSE,A,3,4,0,1,TRUE,"ECE,DSAI"
+DS301,Graphs and Social Network,Dr. Utkarsh Khaire,1,Lecture,CSE,A,3,4,0,1,TRUE,"ECE,DSAI"
+CS366,Advanced Algorithm Design,Dr. Suvadip Hazra,1,Lecture,CSE,A,3,4,0,1,TRUE,"ECE,DSAI"
+DS359,Full Stack Development,Dr. Manjunath KV,1,Lecture,CSE,A,3,4,0,1,TRUE,"ECE,DSAI"
+EC355,Internet of Things,Dr. Prakash Pawar,1,Lecture,CSE,A,3,4,0,1,TRUE,"ECE,DSAI"
+CS352,Cryptography & Information Security,Dr. Rajendra Hegadi,1,Lecture,CSE,A,3,4,0,1,TRUE,"ECE,DSAI"
+EC365,AI in Biomedical Signal Interpretation,Dr. Sibasankar Padhy,1,Lecture,CSE,A,3,4,0,1,TRUE,"ECE,DSAI"
+ASD352,User Interactions and Experience Design,Dr. Sandesh P,1,Lecture,CSE,A,3,4,0,1,TRUE,"ECE,DSAI"
+EC364,Semiconductor Device Modeling,Dr. Pankaj Kumar,1,Lecture,CSE,A,3,4,0,1,TRUE,"ECE,DSAI"
+CS309,Statistics for Computer Science,Dr. Sunil CK,1,Lecture,CSE,B,3,4,0,1,FALSE,"ECE,DSAI"
+CS303,Computer Networks,Dr. Animesh Roy,1,Lecture,CSE,B,3,5,0,1,FALSE,"ECE,DSAI"
+CS304,Artificial Intelligence,Dr. Krishnendu,1,Lecture,CSE,B,3,4,0,1,FALSE,"ECE,DSAI"
+HS101,Environmental Studies,Dr. Aswath Babu H,1,Lecture,CSE,B,3,2,0,1,FALSE,"ECE,DSAI"
+CS463,Parallel Computing,Dr. Pramod Yelmewad,1,Lecture,CSE,B,3,4,0,1,TRUE,"ECE,DSAI"
+CS308,Compiler Design,Dr. Pavan Kumar C,1,Lecture,CSE,B,3,4,0,1,TRUE,"ECE,DSAI"
+DS301,Graphs and Social Network,Dr. Utkarsh Khaire,1,Lecture,CSE,B,3,4,0,1,TRUE,"ECE,DSAI"
+CS366,Advanced Algorithm Design,Dr. Suvadip Hazra,1,Lecture,CSE,B,3,4,0,1,TRUE,"ECE,DSAI"
+DS359,Full Stack Development,Dr. Manjunath KV,1,Lecture,CSE,B,3,4,0,1,TRUE,"ECE,DSAI"
+EC355,Internet of Things,Dr. Prakash Pawar,1,Lecture,CSE,B,3,4,0,1,TRUE,"ECE,DSAI"
+CS352,Cryptography & Information Security,Dr. Rajendra Hegadi,1,Lecture,CSE,B,3,4,0,1,TRUE,"ECE,DSAI"
+EC365,AI in Biomedical Signal Interpretation,Dr. Sibasankar Padhy,1,Lecture,CSE,B,3,4,0,1,TRUE,"ECE,DSAI"
+ASD352,User Interactions and Experience Design,Dr. Sandesh P,1,Lecture,CSE,B,3,4,0,1,TRUE,"ECE,DSAI"
+EC364,Semiconductor Device Modeling,Dr. Pankaj Kumar,1,Lecture,CSE,B,3,4,0,1,TRUE,"ECE,DSAI"
+CS309,Statistics for Computer Science,Dr. Sunil CK,1,Lecture,DSAI,ALL,3,4,0,1,FALSE,"ECE,CSE"
+CS303,Computer Networks,Dr. Animesh Roy,1,Lecture,DSAI,ALL,3,5,0,1,FALSE,"ECE,CSE"
+CS304,Artificial Intelligence,Dr. Krishnendu,1,Lecture,DSAI,ALL,3,4,0,1,FALSE,"ECE,CSE"
+HS101,Environmental Studies,Dr. Aswath Babu H,1,Lecture,DSAI,ALL,3,2,0,1,FALSE,"ECE,CSE"
+CS463,Parallel Computing,Dr. Pramod Yelmewad,1,Lecture,DSAI,ALL,3,4,0,1,TRUE,"ECE,CSE"
+CS308,Compiler Design,Dr. Pavan Kumar C,1,Lecture,DSAI,ALL,3,4,0,1,TRUE,"ECE,CSE"
+DS301,Graphs and Social Network,Dr. Utkarsh Khaire,1,Lecture,DSAI,ALL,3,4,0,1,TRUE,"ECE,CSE"
+CS366,Advanced Algorithm Design,Dr. Suvadip Hazra,1,Lecture,DSAI,ALL,3,4,0,1,TRUE,"ECE,CSE"
+DS359,Full Stack Development,Dr. Manjunath KV,1,Lecture,DSAI,ALL,3,4,0,1,TRUE,"ECE,CSE"
+EC355,Internet of Things,Dr. Prakash Pawar,1,Lecture,DSAI,ALL,3,4,0,1,TRUE,"ECE,CSE"
+CS352,Cryptography & Information Security,Dr. Rajendra Hegadi,1,Lecture,DSAI,ALL,3,4,0,1,TRUE,"ECE,CSE"
+EC365,AI in Biomedical Signal Interpretation,Dr. Sibasankar Padhy,1,Lecture,DSAI,ALL,3,4,0,1,TRUE,"ECE,CSE"
+ASD352,User Interactions and Experience Design,Dr. Sandesh P,1,Lecture,DSAI,ALL,3,4,0,1,TRUE,"ECE,CSE"
+EC364,Semiconductor Device Modeling,Dr. Pankaj Kumar,1,Lecture,DSAI,ALL,3,4,0,1,TRUE,"ECE,CSE"
+CS309,Statistics for Computer Science,Dr. Sunil CK,1,Lecture,ECE,ALL,3,4,0,1,FALSE,"DSAI,CSE"
+CS303,Computer Networks,Dr. Animesh Roy,1,Lecture,ECE,ALL,3,5,0,1,FALSE,"DSAI,CSE"
+CS304,Artificial Intelligence,Dr. Krishnendu,1,Lecture,ECE,ALL,3,4,0,1,FALSE,"DSAI,CSE"
+HS101,Environmental Studies,Dr. Aswath Babu H,1,Lecture,ECE,ALL,3,2,0,1,FALSE,"DSAI,CSE"
+CS463,Parallel Computing,Dr. Pramod Yelmewad,1,Lecture,ECE,ALL,3,4,0,1,TRUE,"DSAI,CSE"
+CS308,Compiler Design,Dr. Pavan Kumar C,1,Lecture,ECE,ALL,3,4,0,1,TRUE,"DSAI,CSE"
+DS301,Graphs and Social Network,Dr. Utkarsh Khaire,1,Lecture,ECE,ALL,3,4,0,1,TRUE,"DSAI,CSE"
+CS366,Advanced Algorithm Design,Dr. Suvadip Hazra,1,Lecture,ECE,ALL,3,4,0,1,TRUE,"DSAI,CSE"
+DS359,Full Stack Development,Dr. Manjunath KV,1,Lecture,ECE,ALL,3,4,0,1,TRUE,"DSAI,CSE"
+EC355,Internet of Things,Dr. Prakash Pawar,1,Lecture,ECE,ALL,3,4,0,1,TRUE,"DSAI,CSE"
+CS352,Cryptography & Information Security,Dr. Rajendra Hegadi,1,Lecture,ECE,ALL,3,4,0,1,TRUE,"DSAI,CSE"
+EC365,AI in Biomedical Signal Interpretation,Dr. Sibasankar Padhy,1,Lecture,ECE,ALL,3,4,0,1,TRUE,"DSAI,CSE"
+ASD352,User Interactions and Experience Design,Dr. Sandesh P,1,Lecture,ECE,ALL,3,4,0,1,TRUE,"DSAI,CSE"
+EC364,Semiconductor Device Modeling,Dr. Pankaj Kumar,1,Lecture,ECE,ALL,3,4,0,1,TRUE,"DSAI,CSE"
+DS456,Cybersecurity,Dr. Rajendra Hegadi,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+EC456,Techniques Reinforcement Learning,Dr. Dibyajyothi,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+DS401,Health Care Data Analytics,Dr. Girish G N,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+EC462,Generative AI,Dr. Chinmayananda A,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+EC463,Hands on CMOS Analog and RF circuit design,Dr. Rajesh Kumar,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+ASD352,Fog Interactions and Experience Design,Dr. Sandesh P,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+PH454,Quantum AI: Generative Models on Quantum Platform,Dr. Aswath Babu,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+CS457,DevOps and its Applications,Dr. Shrishendu Layek,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+DS458,Aseptic AI,Dr. Sunil Saumya,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+CS468,Information Retrieval Cloud SRE and,Dr. Krishnendu,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+CS473,Security Software Defined Networks,Dr. Malay Kumar,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+CS470,AI for Cybersecurity Finance and,Dr. Abdul Wahid,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+DS102,Accounting,Dr. Amushree,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+MA452,Operation Research,Dr. Anand Barangi,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+EC463,Energy Efficient Neural Networks,Dr. Jagadish D N,1,Theory,CSE,ALL,4,4,0,1,FALSE,"DSAI,ECE"
+DS456,Cybersecurity,Dr. Rajendra Hegadi,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+EC456,Techniques Reinforcement Learning,Dr. Dibyajyothi,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+DS401,Health Care Data Analytics,Dr. Girish G N,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+EC462,Generative AI,Dr. Chinmayananda A,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+EC463,Hands on CMOS Analog and RF circuit design,Dr. Rajesh Kumar,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+ASD352,Fog Interactions and Experience Design,Dr. Sandesh P,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+PH454,Quantum AI: Generative Models on Quantum Platform,Dr. Aswath Babu,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+CS457,DevOps and its Applications,Dr. Shrishendu Layek,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+DS458,Aseptic AI,Dr. Sunil Saumya,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+CS468,Information Retrieval Cloud SRE and,Dr. Krishnendu,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+CS473,Security Software Defined Networks,Dr. Malay Kumar,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+CS470,AI for Cybersecurity Finance and,Dr. Abdul Wahid,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+DS102,Accounting,Dr. Amushree,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+MA452,Operation Research,Dr. Anand Barangi,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+EC463,Energy Efficient Neural Networks,Dr. Jagadish D N,1,Theory,DSAI,ALL,4,4,0,1,FALSE,"CSE,ECE"
+DS456,Cybersecurity,Dr. Rajendra Hegadi,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+EC456,Techniques Reinforcement Learning,Dr. Dibyajyothi,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+DS401,Health Care Data Analytics,Dr. Girish G N,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+EC462,Generative AI,Dr. Chinmayananda A,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+EC463,Hands on CMOS Analog and RF circuit design,Dr. Rajesh Kumar,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+ASD352,Fog Interactions and Experience Design,Dr. Sandesh P,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+PH454,Quantum AI: Generative Models on Quantum Platform,Dr. Aswath Babu,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+CS457,DevOps and its Applications,Dr. Shrishendu Layek,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+DS458,Aseptic AI,Dr. Sunil Saumya,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+CS468,Information Retrieval Cloud SRE and,Dr. Krishnendu,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+CS473,Security Software Defined Networks,Dr. Malay Kumar,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+CS470,AI for Cybersecurity Finance and,Dr. Abdul Wahid,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+DS102,Accounting,Dr. Amushree,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+MA452,Operation Research,Dr. Anand Barangi,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
+EC463,Energy Efficient Neural Networks,Dr. Jagadish D N,1,Theory,ECE,ALL,4,4,0,1,FALSE,"CSE,DSAI"
